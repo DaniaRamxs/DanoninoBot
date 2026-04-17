@@ -1,0 +1,30 @@
+{
+  "name": "chimubot",
+  "version": "1.0.0",
+  "description": "ChimuBot - Bot de WhatsApp multipropósito",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "ChimuBot",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "better-sqlite3": "^11.7.0",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.4.7",
+    "axios": "^1.7.9",
+    "chalk": "^5.4.1",
+    "moment": "^2.30.1",
+    "sharp": "^0.33.5",
+    "fluent-ffmpeg": "^2.1.3",
+    "cheerio": "^1.0.0",
+    "node-gtts": "^2.0.2",
+    "file-type": "^19.6.0",
+    "form-data": "^4.0.1"
+  }
+}
